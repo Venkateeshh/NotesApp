@@ -1,32 +1,50 @@
-# Notes App
-This repository contains the source code for a notes app developed using Android Studio. The application is built using Java programming language and incorporates various features to create, edit, and manage notes effectively.
+# ThoughtNest
 
-## Features :
-- 1.User Authentication: The app utilizes Firebase Authentication to securely authenticate users and provide a personalized experience.
-- 2.Note Creation and Editing: Users can easily create new notes, edit existing notes, and organize them in a convenient manner.
-- 3.Real-time Data Storage: The app integrates Firebase Firestore to store notes in real-time, ensuring seamless synchronization across multiple devices.
-- 4.User-Friendly Interface: The application is designed with a user-friendly interface to provide an intuitive and smooth experience for note management.
+ThoughtNest is a user-friendly notes application that securely captures, organizes, and syncs your thoughts and ideas across devices seamlessly.
 
-## Installation :
+## Demo Video
+
+Watch a quick demo of ThoughtNest to see it in action:
+
+https://github.com/user-attachments/assets/cd719303-98a4-4414-999e-0173ce0cfaa2
+
+
+## Features
+
+- **User Authentication:** Utilizes Firebase Authentication for secure user login.
+- **Note Creation and Editing:** Create, edit, and manage notes conveniently.
+- **Real-time Data Storage:** Integration with Firebase Firestore ensures notes are synchronized across devices in real-time.
+- **User-Friendly Interface:** Designed for an intuitive and smooth note management experience.
+
+## Installation
+
 To run the app locally, follow these steps:
 
-- 1.Clone the repository to your local machine.
-- 2.Open the project in Android Studio.
-- 3.Connect the project to your Firebase project by adding the necessary Firebase configuration files.
-- 4.Build and run the app on an Android emulator or physical device.
+1. Clone the repository to your local machine.
+2. Open the project in Android Studio.
+3. Connect the project to your Firebase project by adding Firebase configuration files.
+4. Build and run the app on an Android emulator or physical device.
 
+Make sure to configure your Firebase project properly and update dependencies in `build.gradle` before running the app.
 
-Please make sure to configure your Firebase project properly and update the necessary dependencies in the project's build.gradle file before running the app.
+## Dependencies
 
-## Dependencies :
-The following dependencies are used in this project:
+The project uses the following dependencies:
 
-- 1.Firebase Authentication: Enables user authentication and secure access control.
-- 2.Firebase Firestore: Provides real-time database functionality for storing and retrieving notes.
-- 3.Android Architecture Components: Used for implementing MVVM (Model-View-ViewModel) architecture and data binding.
-- 4.RecyclerView: Handles the display and management of notes in a scrollable list.
-- 5.Material Design Components: Enhances the visual appearance of the app with pre-built UI components.
+- Firebase Authentication
+- Firebase Firestore
+- Android Architecture Components (MVVM)
+- RecyclerView
+- Material Design Components
 
+## Contribution
 
-## Contribution :
-Contributions to this project are welcome. If you encounter any issues or have suggestions for improvements, please feel free to submit a pull request or open an issue in the repository.
+Contributions are welcome! If you encounter issues or have suggestions, feel free to submit a pull request or open an issue in the repository.
+
+## About
+
+ThoughtNest is developed using Android Studio and Java, offering a streamlined experience for note-taking and management.
+
+---
+
+Replace `https://example.com/demo-video-thumbnail.png` and `https://example.com/demo-video-link` with the actual URL of your demo video thumbnail image and the video link, respectively. This allows users to visually see how your application works before trying it out themselves.
